@@ -7,7 +7,7 @@ function Actor() {
   let dataUrl = "";
   if (inputVal.length > 0) {
     dataUrl = `https://api.tvmaze.com/search/people?q=${inputVal}`;
-  } 
+  }
   // else {
   //   dataUrl = `https://api.tvmaze.com/search/people?q=friends`;
   // }
@@ -36,7 +36,7 @@ function Actor() {
                 value={inputVal}
                 onChange={(e) => setInputVal(e.target.value)}
                 className="form-control"
-                placeholder="Search by Actors name...."
+                placeholder="Ackon...."
               />
             </div>
           </div>
@@ -49,28 +49,28 @@ function Actor() {
             {actorsData.map((element) => {
               return (
                 <div className="col-md-3 mb-3">
-                  <div className="card">
-                    <a href={element.person.url} target="_aayush">
-                    {element.person.image ? (
-                      <img
-                        src={element.person.image.medium}
-                        className="poster"
-                        style={{ width: "255px", height: "325px" }}
-                        alt={
-                          element.person.name != null
-                            ? element.person.name
-                            : "Not found"
-                        }
-                      />
-                    ) : (
-                      <div className="poster" style={{ height: "325px" }}>
+                  <div className="card center-card">
+                    <a href={element.person.url} target="_raunak">
+                      {element.person.image ? (
                         <img
-                          src="https://www.prokerala.com/movies/assets/img/no-poster-available.jpg"
-                          style={{ width: "250px", height: "325px" }}
-                          alt = "Not Found"
+                          src={element.person.image.medium}
+                          className="poster d-flex justify-content-center"
+                          style={{ width: "255px", height: "325px" }}
+                          alt={
+                            element.person.name != null
+                              ? element.person.name
+                              : "Not found"
+                          }
                         />
-                      </div>
-                    )}
+                      ) : (
+                        <div className="poster" style={{ height: "325px" }}>
+                          <img
+                            src="https://www.prokerala.com/movies/assets/img/no-poster-available.jpg"
+                            style={{ width: "250px", height: "325px" }}
+                            alt="Not Found"
+                          />
+                        </div>
+                      )}
                     </a>
                     <div className="card-body">
                       <p
