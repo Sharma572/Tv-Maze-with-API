@@ -1,17 +1,21 @@
-.navbar{
-    background-color:rgb(31, 160, 160);
+.navbar {
+  background-color: #002b5b;
 }
 
-.container-fluid{
-    background-color:rgb(31, 160, 160);
+.container-fluid {
+  background-color: #002b5b;
 }
 
-.container{
+.center-card {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-child img{
-    background-color:black;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40%;
+.container-child img {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
 }
