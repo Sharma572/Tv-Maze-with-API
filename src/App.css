@@ -1,0 +1,17 @@
+.navbar{
+    background-color:rgb(31, 160, 160);
+}
+
+.container-fluid{
+    background-color:rgb(31, 160, 160);
+}
+
+.container{
+}
+
+.container-child img{
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
