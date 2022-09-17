@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,6 @@
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 15px;
 }
 #input-form{
   padding: 8px;
@@ -53,6 +52,16 @@ margin-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Footer{
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+  height: 5rem;
+  padding: 15px;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 @keyframes App-logo-spin {
