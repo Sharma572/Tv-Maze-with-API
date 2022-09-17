@@ -84,7 +84,7 @@ function App() {
       <Navbar />
 
       <div className="m-lg-4 mt-4 p-sm-4 d-flex justify-content-center align-items-center flex-column flex-lg-row ">
-        <div className="input ml-2 ">
+        <div className="input ml-2 m-3 ">
           <input
             id="input-form"
             classname="form-control"
