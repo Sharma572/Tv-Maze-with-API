@@ -63,6 +63,10 @@ margin-left: 15px;
   padding: 15px;
   text-align: center;
   margin-top: 5rem;
+  background-position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @keyframes App-logo-spin {
