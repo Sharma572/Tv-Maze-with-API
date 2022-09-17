@@ -9,7 +9,7 @@ export default function Show({ data }) {
             key={element.show.id}
             className="mt-4 card "
             style={{ width: "100px" }}
-            class="col-md-3 col-sm-6 mt-4"
+            class="col-md-3 col-sm-6 col-12 mt-4"
           >
             <div class="card profile-card-5">
               <div class="card-img-block">
