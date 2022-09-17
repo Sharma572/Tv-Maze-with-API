@@ -6,20 +6,20 @@ import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 
 function App() {
-  const [radio, setRadio] = useState("");
-  const [input, setInput] = useState("");
+  const [input, setInputData] = useState("");
   const [actor, setActor] = useState([]);
   const [show, setShow] = useState([]);
   const [actShow, setActShow] = useState([]);
-
+  const [radio, setRadioDataData] = useState("");
   const [notFound, setNotfound] = useState(true);
 
+
   const updateRadioData = (e) => {
-    setRadio(e.target.value);
+    setRadioDataData(e.target.value);
     setActor([]);
     setShow([]);
     setActShow([]);
-    setInput("");
+    setInputData("");
   };
   useEffect(() => {
     if (radio === "actor") {
@@ -74,7 +74,7 @@ function App() {
   };
 
   const showsName = (event) => {
-    setInput(event.target.value);
+    setInputData(event.target.value);
   };
 
   const optimisedVesion = useCallback(debounce(showsName), []);
