@@ -3,6 +3,7 @@ import Actor from "./component/Actor";
 import Show from "./component/Show";
 import "./App.css";
 import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
 
 function App() {
   const [radio, setRadio] = useState("");
@@ -93,7 +94,7 @@ function App() {
             onChange={optimisedVesion}
           ></input>
         </div>
-        <div id="radio-container">
+        <div id="radio-container ">
           <div className="ml-4 mt-2 d-inline">
             <input
               classname="form-check-input"
@@ -150,6 +151,7 @@ function App() {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 }
