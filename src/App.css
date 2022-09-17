@@ -36,6 +36,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 0 15px;
 }
 #input-form{
   padding: 8px;
