@@ -94,7 +94,7 @@ function App() {
           ></input>
         </div>
         <div id="radio-container">
-          <div className="ml-3 mt-2 d-inline">
+          <div className=" ml-5 mt-2 d-inline">
             <input
               classname="form-check-input"
               type="radio"
@@ -104,7 +104,7 @@ function App() {
               onChange={updateRadioData}
             />
             <label classname="form-check-label" for="flexRadioDefault1">
-              <span className="p-2">Actor</span>
+              <span className="p-5">Actor</span>
             </label>
           </div>
           <div className="ml-3 mt-2 d-inline">
@@ -117,7 +117,7 @@ function App() {
               onChange={updateRadioData}
             />
             <label classname="form-check-label" for="flexRadioDefault2">
-              <span className="p-2">Show</span>
+              <span className="px-2">Show</span>
             </label>
           </div>
         </div>
