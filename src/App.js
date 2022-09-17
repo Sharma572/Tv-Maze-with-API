@@ -93,7 +93,7 @@ function App() {
             onChange={optimisedVesion}
           ></input>
         </div>
-        <div id="radio-container ">
+        <div id="radio-container me-5">
           <div className="ml-4 mt-2 d-inline">
             <input
               classname="form-check-input"
